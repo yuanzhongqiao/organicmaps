@@ -1,185 +1,159 @@
-# Organic Maps
-
-<a name="install"/>
-
-[Organic Maps](https://organicmaps.app) is a free Android & iOS offline maps app for travellers, tourists, drivers, hikers, and cyclists.
-It uses crowd-sourced [OpenStreetMap](https://www.openstreetmap.org) data and is developed with love by the creators of **MapsWithMe** (later renamed to **Maps.Me**) and by our community.
-No ads, no tracking, no data collection, no crapware. Your [donations](https://organicmaps.app/donate/) and positive reviews motivate and inspire us, thanks ❤️!
-
-<p float="left">
-  <a href="https://apps.apple.com/app/organic-maps/id1567437057">
-    <img alt="Download on the App Store" src="docs/badges/apple-appstore.png" width="180">
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-organic-maps" class="anchor" aria-hidden="true" tabindex="-1" href="#organic-maps"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">organicmaps</font></font></h1>
+<a name="user-content-install">
+</a><p dir="auto"><a href="https://organicmaps.app" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Organic Maps</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一款免费的 Android 和 iOS 离线地图应用程序，适合旅行者、游客、司机、徒步旅行者和骑自行车的人。它使用众包的</font></font><a href="https://www.openstreetmap.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenStreetMap数据，并由</font></font></a><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MapsWithMe</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（后来更名为</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Maps.Me</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）的创建者和我们的社区</font><font style="vertical-align: inherit;">精心开发。</font><font style="vertical-align: inherit;">没有广告，没有跟踪，没有数据收集，没有垃圾软件。您的</font></font><a href="https://organicmaps.app/donate/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捐赠</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和积极评价激励和激励我们，谢谢❤️！</font></font></p>
+<p dir="auto">
+  <a href="https://apps.apple.com/app/organic-maps/id1567437057" rel="nofollow">
+    <img alt="在应用商店下载" src="https://github.com/organicmaps/organicmaps/raw/master/docs/badges/apple-appstore.png" width="180" style="max-width: 100%;">
   </a>
-  <a href="https://play.google.com/store/apps/details?id=app.organicmaps">
-    <img alt="Get it on Google Play" src="docs/badges/google-play.png" width="180">
+  <a href="https://play.google.com/store/apps/details?id=app.organicmaps" rel="nofollow">
+    <img alt="在 Google Play 上获取" src="https://github.com/organicmaps/organicmaps/raw/master/docs/badges/google-play.png" width="180" style="max-width: 100%;">
   </a>
-  <a href="https://appgallery.huawei.com/#/app/C104325611">
-    <img alt="Explore it on AppGallery" src="docs/badges/huawei-appgallery.png" width="180">
+  <a href="https://appgallery.huawei.com/#/app/C104325611" rel="nofollow">
+    <img alt="在 AppGallery 上探索" src="https://github.com/organicmaps/organicmaps/raw/master/docs/badges/huawei-appgallery.png" width="180" style="max-width: 100%;">
   </a>
-  <a href="https://f-droid.org/en/packages/app.organicmaps/">
-    <img alt="Get it on F-Droid" src="docs/badges/fdroid.png" width="180">
+  <a href="https://f-droid.org/en/packages/app.organicmaps/" rel="nofollow">
+    <img alt="在 F-Droid 上获取" src="https://github.com/organicmaps/organicmaps/raw/master/docs/badges/fdroid.png" width="180" style="max-width: 100%;">
   </a>
 </p>
-
-<p float="left">
-  <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/1.jpg" width="400" />
-  <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/2.jpg" width="400" />
-  <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/3.jpg" width="400" />
-  <img src="android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/4.jpg" width="400" />
+<p dir="auto">
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/organicmaps/organicmaps/blob/master/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/1.jpg"><img src="https://github.com/organicmaps/organicmaps/raw/master/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/1.jpg" width="400" style="max-width: 100%;"></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/organicmaps/organicmaps/blob/master/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/2.jpg"><img src="https://github.com/organicmaps/organicmaps/raw/master/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/2.jpg" width="400" style="max-width: 100%;"></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/organicmaps/organicmaps/blob/master/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/3.jpg"><img src="https://github.com/organicmaps/organicmaps/raw/master/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/3.jpg" width="400" style="max-width: 100%;"></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/organicmaps/organicmaps/blob/master/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/4.jpg"><img src="https://github.com/organicmaps/organicmaps/raw/master/android/app/src/fdroid/play/listings/en-US/graphics/phone-screenshots/4.jpg" width="400" style="max-width: 100%;"></a>
 </p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-features" class="anchor" aria-hidden="true" tabindex="-1" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Organic Maps 是旅行者、游客、徒步旅行者和骑自行车者的终极伴侣应用程序：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><a href="https://openstreetmap.org" rel="nofollow"><font style="vertical-align: inherit;">借助OpenStreetMap，</font></a><font style="vertical-align: inherit;">提供详细的离线地图，其中包含其他地图上不存在的地点</font></font><a href="https://openstreetmap.org" rel="nofollow"><font style="vertical-align: inherit;"></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自行车路线、远足路线和步行路线</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等高线、高程剖面、山峰和坡度</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">带语音指导的路线规划步行、骑行和汽车导航</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">地图上快速离线搜索</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以 KML、KMZ 和 GPX 格式添加书签和轨迹导入和导出</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深色模式保护你的眼睛</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">国家和地区不占太多空间</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">免费和开源</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-why-organic" class="anchor" aria-hidden="true" tabindex="-1" href="#why-organic"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么选择有机？</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有机地图纯粹而有机，用爱制作：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尊重您的隐私</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">节省电池</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不会产生意外的移动数据费用</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有机地图没有跟踪器和其他不好的东西：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无广告</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有追踪</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有数据收集</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不给家里打电话</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有烦人的注册</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无强制教程</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有嘈杂的垃圾邮件</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有推送通知</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">没有垃圾软件</font></font></li>
+<li><del><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无农药</font></font></del><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纯有机！</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Android 应用程序已通过</font></font><a href="https://reports.exodus-privacy.eu.org/en/reports/app.organicmaps/latest/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Exodus 隐私项目验证：</font></font></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/organicmaps/organicmaps/blob/master/docs/privacy/exodus.png"><img src="/organicmaps/organicmaps/raw/master/docs/privacy/exodus.png" width="400" style="max-width: 100%;"></a></p>
 
-## Features
+<p dir="auto"><font style="vertical-align: inherit;"><a href="https://ios.trackercontrol.org/analysis/app.organicmaps" rel="nofollow"><font style="vertical-align: inherit;">iOS 应用程序由TrackerControl for iOS</font></a><font style="vertical-align: inherit;">验证：</font></font><a href="https://ios.trackercontrol.org/analysis/app.organicmaps" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/organicmaps/organicmaps/blob/master/docs/privacy/trackercontrol-ios.png"><img src="/organicmaps/organicmaps/raw/master/docs/privacy/trackercontrol-ios.png" width="400" style="max-width: 100%;"></a></p>
 
-Organic Maps is the ultimate companion app for travellers, tourists, hikers, and cyclists:
-
-- Detailed offline maps with places that don't exist on other maps, thanks to [OpenStreetMap](https://openstreetmap.org)
-- Cycling routes, hiking trails, and walking paths
-- Contour lines, elevation profiles, peaks, and slopes
-- Turn-by-turn walking, cycling, and car navigation with voice guidance
-- Fast offline search on the map
-- Bookmarks and tracks import and export in KML, KMZ & GPX formats
-- Dark Mode to protect your eyes
-- Countries and regions don't take a lot of space
-- Free and open-source
-
-## Why Organic?
-
-Organic Maps is pure and organic, made with love:
-
-- Respects your privacy
-- Saves your battery
-- No unexpected mobile data charges
-
-Organic Maps is free from trackers and other bad stuff:
-
-- No ads
-- No tracking
-- No data collection
-- No phoning home
-- No annoying registration
-- No mandatory tutorials
-- No noisy email spam
-- No push notifications
-- No crapware
-- ~~No pesticides~~ Purely organic!
-
-The Android application is verified by the <a href="https://reports.exodus-privacy.eu.org/en/reports/app.organicmaps/latest/">Exodus Privacy Project:
-
-<img src="docs/privacy/exodus.png" width="400">
-</a>
-
-The iOS application is verified by <a href="https://ios.trackercontrol.org/analysis/app.organicmaps">TrackerControl for iOS:
-
-<img src="docs/privacy/trackercontrol-ios.png" width="400">
-</a>
-
-<br/>
-
-Organic Maps doesn't request excessive permissions to spy on you:
-
-<p float="left">
-  <img src="docs/privacy/om.jpg" width="400">
-  <img src="docs/privacy/mm.jpg" width="400">
+<br>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有机地图不会请求过多的权限来监视您：</font></font></p>
+<p dir="auto">
+  <a target="_blank" rel="noopener noreferrer" href="/organicmaps/organicmaps/blob/master/docs/privacy/om.jpg"><img src="/organicmaps/organicmaps/raw/master/docs/privacy/om.jpg" width="400" style="max-width: 100%;"></a>
+  <a target="_blank" rel="noopener noreferrer" href="/organicmaps/organicmaps/blob/master/docs/privacy/mm.jpg"><img src="/organicmaps/organicmaps/raw/master/docs/privacy/mm.jpg" width="400" style="max-width: 100%;"></a>
 </p>
-
-At Organic Maps, we believe that privacy is a fundamental human right:
-
-- Organic Maps is an indie community-driven open-source project
-- We protect your privacy from Big Tech's prying eyes
-- Stay safe no matter where you are
-
-Reject surveillance - embrace your freedom.
-
-[**Give Organic Maps a try!**](#install)
-
-## Who is paying for the development?
-
-The app is free for everyone, so we rely on donations. Please donate at [organicmaps.app/donate](https://organicmaps.app/donate) to support us!
-
-Beloved institutional sponsors below have provided targeted grants to cover some infrastructure costs and fund development of new selected features:
-
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Organic Maps，我们相信隐私是一项基本人权：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Organic Maps 是一个独立社区驱动的开源项目</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们保护您的隐私免受大型科技公司的窥探</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无论您身在何处，请保持安全</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拒绝监视——拥抱自由。</font></font></p>
+<p dir="auto"><a href="#install"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试一下有机地图！</font></font></strong></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-who-is-paying-for-the-development" class="anchor" aria-hidden="true" tabindex="-1" href="#who-is-paying-for-the-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">谁为开发买单？</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该应用程序对所有人免费，因此我们依靠捐赠。请通过</font></font><a href="https://organicmaps.app/donate" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Organicmaps.app/donate</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捐款来支持我们！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以下受人喜爱的机构赞助商提供了有针对性的赠款，以支付一些基础设施成本并资助新选定功能的开发：</font></font></p>
 <table>
-  <tr>
+  <tbody><tr>
     <td>
-      <a href="https://nlnet.nl/"><img src="docs/sponsors/nlnet.svg" alt="The NLnet Foundation" width="200px"></a>
+      <a href="https://nlnet.nl/" rel="nofollow"><img src="/organicmaps/organicmaps/raw/master/docs/sponsors/nlnet.svg" alt="NLnet 基金会" width="200px" style="max-width: 100%;"></a>
     </td>
     <td>
-      <a href="https://github.com/organicmaps/organicmaps/milestone/7">The Search & Fonts improvement project</a> has been <a href="https://nlnet.nl/project/OrganicMaps/">funded</a> through NGI0 Entrust Fund. <a href="https://nlnet.nl/entrust/">NGI0 Entrust Fund</a> is established by the <a href="https://nlnet.nl/">NLnet Foundation</a> with financial support from the European Commission's <a href="https://www.ngi.eu/">Next Generation Internet programme</a>, under the aegis of DG Communications Networks, Content and Technology under grant agreement No 101069594.
-    </td>
+      <a href="https://github.com/organicmaps/organicmaps/milestone/7"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">搜索和字体改进项目</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由 NGI0 信托基金</font></font><a href="https://nlnet.nl/project/OrganicMaps/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资助</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="https://nlnet.nl/entrust/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NGI0 信托基金由</font></font></a><font style="vertical-align: inherit;"></font><a href="https://nlnet.nl/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NLnet 基金会</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在欧盟委员会</font></font><a href="https://www.ngi.eu/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下一代互联网计划</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的财政支持下建立</font><font style="vertical-align: inherit;">，并根据赠款协议 No 101069594 接受 DG 通信网络、内容和技术的支持。
+    </font></font></td>
   </tr>
   <tr>
     <td>
-      <a href="https://summerofcode.withgoogle.com/"><img src="docs/sponsors/gsoc.svg" alt="Google Summer of Code" width="200px"></a>
+      <a href="https://summerofcode.withgoogle.com/" rel="nofollow"><img src="/organicmaps/organicmaps/raw/master/docs/sponsors/gsoc.svg" alt="谷歌代码之夏" width="200px" style="max-width: 100%;"></a>
     </td>
     <td>
-      <a href="https://summerofcode.withgoogle.com/">Google</a> backed 5 student's projects in the Google Summer of Code program during <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps">2022</a> and <a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps">2023</a> programs. Noteworthy projects included Android Auto, Outdoor Style, and Wikipedia Dump Extractor.
-    </td>
+      <a href="https://summerofcode.withgoogle.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google在</font></font></a><font style="vertical-align: inherit;"></font><a href="https://summerofcode.withgoogle.com/programs/2022/organizations/organic-maps" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2022 年</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://summerofcode.withgoogle.com/programs/2023/organizations/organic-maps" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023 年</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的 Google Summer of Code 项目中支持了 5 个学生项目</font><font style="vertical-align: inherit;">。值得注意的项目包括 Android Auto、Outdoor Style 和 Wikipedia Dump Extractor。
+    </font></font></td>
   </tr>
   <tr>
     <td>
-      <a href="https://www.mythic-beasts.com/"><img src="docs/sponsors/mythic-beasts.png" alt="Mythic Beasts" width="200px"></a>
+      <a href="https://www.mythic-beasts.com/" rel="nofollow"><img src="/organicmaps/organicmaps/raw/master/docs/sponsors/mythic-beasts.png" alt="神兽" width="200px" style="max-width: 100%;"></a>
     </td>
     <td>
-      <a href="https://www.mythic-beasts.com/">Mythic Beasts</a> ISP <a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/">provides us</a> two virtual servers with 400 TB/month of free bandwidth to host and serve maps downloads and updates.
-    </td>
+      <a href="https://www.mythic-beasts.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mythic Beasts</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ISP</font></font><a href="https://www.mythic-beasts.com/blog/2021/10/06/improving-the-world-bit-by-expensive-bit/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为我们提供了</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">两台虚拟服务器，每月提供 400 TB 的免费带宽，用于托管和提供地图下载和更新。
+    </font></font></td>
   </tr>
   <tr>
     <td>
-      <a href="https://futo.org"><img src="docs/sponsors/futo.svg" alt="FUTO" width="200px"></a>
+      <a href="https://futo.org" rel="nofollow"><img src="/organicmaps/organicmaps/raw/master/docs/sponsors/futo.svg" alt="富托" width="200px" style="max-width: 100%;"></a>
     </td>
     <td>
-      <a href="https://futo.org">FUTO</a> has <a href="https://www.youtube.com/watch?v=fJJclgBHrEw">awarded $1000 micro-grant</a> to Organic Maps in February 2023.
-    </td>
+      <a href="https://futo.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FUTO</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">于 2023 年 2 月向 Organic Maps
+    提供</font><font style="vertical-align: inherit;">了</font></font><a href="https://www.youtube.com/watch?v=fJJclgBHrEw" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1000 美元的小额赠款。</font></font></a><font style="vertical-align: inherit;"></font></td>
   </tr>
-</table>
-
-The majority of all expenses have been funded by founders of the project since its inception. The project is far from achieving any sort of financial sustainability. The current level of voluntary donations falls significantly short of covering efforts needed to sustain the app. Any new developments of features are beyond the scope of possibility due to the absence of the necessary financial resources.
-
-Please consider [donating](https://organicmaps.app/donate) if you want to see this open-source project thriving, not dying. There are [other ways how to support the project](#contributing). No coding skills required.
-
-## Copyrights
-
-Licensed under the Apache License, Version 2.0. See
-[LICENSE](https://github.com/organicmaps/organicmaps/blob/master/LICENSE),
-[NOTICE](https://github.com/organicmaps/organicmaps/blob/master/NOTICE)
-and [data/copyright.html](http://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/blob/master/data/copyright.html)
-for more information.
-
-## Governance
-
-See [docs/GOVERNANCE.md](docs/GOVERNANCE.md).
-
-<a name="contributing">
-
-## Contributing
-
-If you want to build the project, check [docs/INSTALL.md](docs/INSTALL.md). If you want to help the project,
-see [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md). You can [help in many ways](https://organicmaps.app/support-us/), the ability to code is not necessary.
-
-## Beta
-
-Please join our beta program, suggest your features, and report bugs:
-
-- [iOS Beta (TestFlight)](https://testflight.apple.com/join/lrKCl08I)
-- [Android Beta (Firebase)](https://appdistribution.firebase.dev/i/2f0fee463107b137)
-
-## Feedback
-
-- **Rate us on the [App Store](https://apps.apple.com/app/organic-maps/id1567437057)
-and [Google Play](https://play.google.com/store/apps/details?id=app.organicmaps)**.
-- **Star us on GitHub**.
-- Report bugs or issues to [the issue tracker](https://github.com/organicmaps/organicmaps/issues).
-- [Discuss](https://github.com/organicmaps/organicmaps/discussions/categories/ideas) ideas or propose feature requests.
-- Subscribe to our [Telegram Channel](https://t.me/OrganicMapsApp) or to the [[matrix] space](https://matrix.to/#/#organicmaps:matrix.org) for updates.
-- Join our [Telegram Group](https://t.me/OrganicMaps) to discuss with other users.
-  - Присоединяйтесь к нашей [русскоязычной группе в Telegram](https://t.me/OrganicMapsRu) для обратной связи и помощи.
-  - Diğer kullanıcılarla tartışmak için [Telegram Grubumuza](https://t.me/OrganicMapsTR) katılın.
-- Contact us by [email](mailto:hello@organicmaps.app).
-- Follow our updates in
-[Mastodon](https://fosstodon.org/@organicmaps),
-[Facebook](https://facebook.com/OrganicMaps),
-[Twitter](https://twitter.com/OrganicMapsApp),
-[Instagram](https://instagram.com/organicmaps.app/).
-  - Güncellemelerimizi [Instagram](https://instagram.com/organicmapstr/) üzerinden takip edin.
-
-The Organic Maps community abides by the CNCF [code of conduct](https://github.com/organicmaps/organicmaps/blob/master/docs/CODE_OF_CONDUCT.md).
+</tbody></table>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自项目启动以来，大部分费用均由项目创始人资助。该项目远未实现任何形式的财务可持续性。目前的自愿捐款水平远远低于维持该应用程序所需的努力。由于缺乏必要的财政资源，任何新的功能开发都超出了可能性的范围。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您希望看到这个开源项目蓬勃发展，而不是消亡，</font><font style="vertical-align: inherit;">请考虑</font></font><a href="https://organicmaps.app/donate" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捐赠</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。还有</font></font><a href="#contributing"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他方式支持该项目</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。无需编码技能。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-copyrights" class="anchor" aria-hidden="true" tabindex="-1" href="#copyrights"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据 Apache 许可证 2.0 版获得许可。请参阅
+</font></font><a href="https://github.com/organicmaps/organicmaps/blob/master/LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+</font></font><a href="https://github.com/organicmaps/organicmaps/blob/master/NOTICE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通知</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+和</font></font><a href="http://htmlpreview.github.io/?https://github.com/organicmaps/organicmaps/blob/master/data/copyright.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">data/copyright.html</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+了解更多信息。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-governance" class="anchor" aria-hidden="true" tabindex="-1" href="#governance"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">治理</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="/organicmaps/organicmaps/blob/master/docs/GOVERNANCE.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">docs/GOVERNANCE.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<a name="user-content-contributing">
+</a><h2 tabindex="-1" dir="auto"><a></a><a id="user-content-contributing" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想构建项目，请检查</font></font><a href="/organicmaps/organicmaps/blob/master/docs/INSTALL.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">docs/INSTALL.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。如果您想帮助该项目，请参阅</font></font><a href="/organicmaps/organicmaps/blob/master/docs/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">docs/CONTRIBUTING.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。您可以</font></font><a href="https://organicmaps.app/support-us/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过多种方式提供帮助</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，编码能力不是必需的。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-beta" class="anchor" aria-hidden="true" tabindex="-1" href="#beta"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贝塔</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请加入我们的测试版计划，建议您的功能并报告错误：</font></font></p>
+<ul dir="auto">
+<li><a href="https://testflight.apple.com/join/lrKCl08I" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">iOS 测试版（TestFlight）</font></font></a></li>
+<li><a href="https://appdistribution.firebase.dev/i/2f0fee463107b137" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Android 测试版 (Firebase)</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-feedback" class="anchor" aria-hidden="true" tabindex="-1" href="#feedback"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">反馈</font></font></h2>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"></font><a href="https://apps.apple.com/app/organic-maps/id1567437057" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在App Store</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+和</font></font><a href="https://play.google.com/store/apps/details?id=app.organicmaps" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Google Play</font></font></a></strong><font style="vertical-align: inherit;"><strong><font style="vertical-align: inherit;">上给我们评分</font></strong><font style="vertical-align: inherit;">。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 GitHub 上为我们加注星标</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"></font><a href="https://github.com/organicmaps/organicmaps/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">向问题跟踪器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">报告错误或问题</font><font style="vertical-align: inherit;">。</font></font></li>
+<li><a href="https://github.com/organicmaps/organicmaps/discussions/categories/ideas"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">讨论</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">想法或提出功能请求。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">订阅我们的</font></font><a href="https://t.me/OrganicMapsApp" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Telegram 频道</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="https://matrix.to/#/#organicmaps:matrix.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[matrix] 空间</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取更新。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">加入我们的</font></font><a href="https://t.me/OrganicMaps" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Telegram 群组</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与其他用户讨论。
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Присоединяйтесь к нашей </font></font><a href="https://t.me/OrganicMapsRu" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">русскоязычной группе в Telegram</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> для обратной связи 和 помощи。</font></font></li>
+<li><font style="vertical-align: inherit;"></font><a href="https://t.me/OrganicMapsTR" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在 Telegram Grubumuza</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> katılın中查看该内容</font><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"></font><a href="mailto:hello@organicmaps.app"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过电子邮件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">联系我们</font><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请关注我们在
+</font></font><a href="https://fosstodon.org/@organicmaps" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mastodon</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+ </font></font><a href="https://facebook.com/OrganicMaps" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Facebook</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+ </font></font><a href="https://twitter.com/OrganicMapsApp" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Twitter</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+ </font></font><a href="https://instagram.com/organicmaps.app/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Instagram</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上的更新。
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Güncellemelerimizi </font></font><a href="https://instagram.com/organicmapstr/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Instagram</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> üzerinden takip edin。</font></font></li>
+</ul>
+</li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Organic Maps 社区遵守 CNCF</font></font><a href="https://github.com/organicmaps/organicmaps/blob/master/docs/CODE_OF_CONDUCT.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">行为准则</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+</article></div>
