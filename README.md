@@ -55,10 +55,10 @@
 <li><del><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无农药</font></font></del><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纯有机！</font></font></li>
 </ul>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Android 应用程序已通过</font></font><a href="https://reports.exodus-privacy.eu.org/en/reports/app.organicmaps/latest/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Exodus 隐私项目验证：</font></font></a></p>
-<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/organicmaps/organicmaps/blob/master/docs/privacy/exodus.png"><img src="/organicmaps/organicmaps/raw/master/docs/privacy/exodus.png" width="400" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/organicmaps/organicmaps/blob/master/docs/privacy/exodus.png"><img src="https://github.com/organicmaps/organicmaps/raw/master/docs/privacy/exodus.png" width="400" style="max-width: 100%;"></a></p>
 
 <p dir="auto"><font style="vertical-align: inherit;"><a href="https://ios.trackercontrol.org/analysis/app.organicmaps" rel="nofollow"><font style="vertical-align: inherit;">iOS 应用程序由TrackerControl for iOS</font></a><font style="vertical-align: inherit;">验证：</font></font><a href="https://ios.trackercontrol.org/analysis/app.organicmaps" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
-<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/organicmaps/organicmaps/blob/master/docs/privacy/trackercontrol-ios.png"><img src="/organicmaps/organicmaps/raw/master/docs/privacy/trackercontrol-ios.png" width="400" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/organicmaps/organicmaps/blob/master/docs/privacy/trackercontrol-ios.png"><img src="https://github.com/organicmaps/organicmaps/raw/master/docs/privacy/trackercontrol-ios.png" width="400" style="max-width: 100%;"></a></p>
 
 <br>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有机地图不会请求过多的权限来监视您：</font></font></p>
